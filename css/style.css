@@ -1,0 +1,184 @@
+html,body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    background: #eeeeee;
+    font-family: 'Dosis', sans-serif;
+}
+
+input {
+    margin-top: 2px;
+    margin-bottom: 10px;
+    border-radius: 6px;
+    outline: none;
+    padding: 10px;
+    font-size: 13px;
+    color: #000;
+    border: 1px solid black;
+    box-sizing:border-box
+}
+
+hr {
+    border: 0;
+    width: 0;
+}
+
+h1 {
+    color: #fff;
+    text-align: center;
+}
+.hidden {
+    width: 0;
+    height: 0;
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+
+.input-form {
+    width: 100%;
+}
+
+#delete-button {
+    color: darkred;
+    background: white;
+    padding-top: 1px;
+    padding-bottom: 1px;
+}
+
+#delete-button:hover {
+    color: white;
+    background: darkred;
+
+}
+
+.button {
+    color: #fff;
+    width: 100%;
+    background: yellowgreen;
+}
+
+.error {
+    color: black;
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 10px;
+    background: rgba(255,50,50,0.5);
+    border-radius: 6px;
+    border: 1px solid rgba(0,0,0,0.5);
+    box-sizing:border-box
+}
+
+.container {
+    border: 1px solid rgba(0,0,0,0.05);
+    border-radius: 10px;
+    padding: 3%;
+    background: linear-gradient(rgba(0,0,0,0.15),rgba(0,0,0,0.05),rgba(0,0,0,0.15));
+}
+
+#top-nav {
+    padding: 12px;
+    background: dimgrey;
+
+}
+
+#top-nav a {
+    color: white;
+    text-decoration: none;
+    padding: 12px;
+}
+
+#top-nav a:hover {
+    /*color: dimgrey;*/
+    background: yellowgreen;
+}
+
+#top-nav #nav-logout {
+    float: right;
+    margin-top: -12px;
+    padding-top: 12px;
+}
+
+#login-container {
+    /*background: #efefef;*/
+    position: absolute;
+    width:300px;
+    height:auto;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#add-device-container {
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#add-user-form {
+
+}
+
+#qrcode-image {
+    text-align: center;
+    padding: 15px;
+
+}
+
+#above-input-text {
+    color: gray;
+    padding-left: 2px;
+}
+
+#checkbox-text {
+    color: black;
+}
+
+#device-list-container {
+    width: 80%;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.device_table {
+    width: 100%;
+}
+
+.device_table a {
+    color: darkred;
+}
+
+.device_table th, td {
+    text-align: center;
+    padding: 8px;
+    font-weight: normal;
+}
+
+.device_table tr:nth-child(even) {
+    background-color: #f0f0f0
+}
+
+.device_table tr:nth-child(odd) {
+    background-color: #f9f9f9
+}
+
+.device_table th {
+    background-color: yellowgreen;
+    color: white;
+}
+
+#image-red {
+color: darkred;
+}
+
+#image-green {
+color: green;
+}
+
